@@ -2,7 +2,7 @@
 
 Name:		hiprand
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	HIP random number generation (rocRAND wrapper)
 License:	MIT
 Group:		System/Libraries
@@ -20,7 +20,6 @@ BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 BuildRequires:	rocrand-devel
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 hipRAND is a thin HIP API wrapper over rocRAND. Built for GPU targets
