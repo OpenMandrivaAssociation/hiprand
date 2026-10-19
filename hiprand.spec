@@ -1,13 +1,13 @@
-# Thin HIP RNG wrapper over rocRAND (TheRock 10.0)
+# Thin HIP RNG wrapper over rocRAND (TheRock 10.1)
 
 Name:		hiprand
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	HIP random number generation (rocRAND wrapper)
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/hiprand.tar.gz#/hiprand-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/hiprand.tar.gz#/hiprand-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
